@@ -63,7 +63,7 @@ header nav ul li a:hover {
 /* end header styling */
 
 section {
-    padding: 60px;
+    padding: 60px 80px;
      
 }
 
@@ -151,12 +151,59 @@ footer h2 {
     background-color: var(--secondary-color);
 }
 
+.section-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+}
+
 .section-title {
-    font-size: 48px;
+    font-size: 40px;
     color: var(--primary-color);
     border-right: 3px solid;
-    padding: 20px 0px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
+    padding-right: 20px;
+    
+    text-align: right;
 }
+
+.section-text {
+    color: var(--primary-color);
+    padding-left: 50px;
+    text-align: left;
+}
+
+.section-text p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.section-references{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.section-info a {
+    margin: 50px;
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 1.50vw;
+    text-decoration: none;
+}
+.section-references li a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+    /*pseudo*/
+.section-references li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
