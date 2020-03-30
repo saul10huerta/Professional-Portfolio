@@ -10,7 +10,7 @@ A website to highight Saul Huerta's Professional Portfolio
 ## Link to webpage
 https://saul10huerta.github.io/Professional-Portfolio/
 
-![] (html-professional-porfolio.png)
+![](html-professional-porfolio.png)
 
 ### Contribution
 Made by Saul Huerta
